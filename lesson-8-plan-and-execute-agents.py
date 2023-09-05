@@ -5,7 +5,7 @@ os.environ["OPENAI_API_KEY"] = "..."
 
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
-from langchain.experimental.plan_and_execute import (
+from langchain_experimental.plan_and_execute import (
     PlanAndExecute,
     load_agent_executor,
     load_chat_planner,
