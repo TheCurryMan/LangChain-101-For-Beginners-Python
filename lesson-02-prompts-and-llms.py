@@ -1,7 +1,7 @@
 # Prompts and LLMs
 import os
 
-os.environ["OPENAI_API_KEY"] = "..."
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "..."
 
 from langchain.llms import OpenAI
 
